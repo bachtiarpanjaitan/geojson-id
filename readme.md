@@ -13,7 +13,7 @@ Ektrak terlebih dahulu semua data yang di kompress pada folder **data**
 Import struktur tabel menggunakan query yang telah didefenisikan di folder **structure**, kemudian anda dapat mengimport data ke tabel yang ada pada folder **data** sesuai dengan nama filenya. 
 > Pada folder **data** untuk wilayah administratif level ke-4 (Kelurahan) telah dibagi menjadi 3 file
  
-Semua data dari adm1 hingga adm4 untuk properti **coordinates** telah di stringify sebanyak 2 kali, sehingga dalam praktek pemakaiannya anda diharapkan mem-parse value dari properti **coordinates** kedalam bentuk JSON.
+Semua data dari adm1 hingga adm4 untuk properti **coordinates** telah di encode sebanyak 2 kali, sehingga dalam praktek pemakaiannya anda diharapkan mem-parse value dari properti **coordinates** kedalam bentuk JSON.
 
 
 ##### Contoh
